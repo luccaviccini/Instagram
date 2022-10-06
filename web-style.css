@@ -1,0 +1,66 @@
+/*Importing Roboto font for project */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.top-container{
+    background-color: lightblue;
+    width: 1366px;
+}
+.divisoria-vertical {
+    width: 2px;
+    background-color: #DBDBDB; 
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+.divisoria-horizontal {
+    width: 100%;
+    height: 1px;
+    background-color: black;   
+}
+
+header{
+    background-color: white;
+    box-sizing:border-box;
+    height: 54px;
+    margin: 0px 217px;
+    display: flex;
+    
+}
+header *{
+    margin: 17px 0px;
+}
+header input{
+    
+    width: 215px;
+    height: 28px;
+    text-align: center;
+    
+    margin: 15px 220px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+header .icones-div{
+    width:125px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;    
+}
+.icones-div .icones{
+    height:16px
+}
+
+.logo{
+    height: 29px;
+    width: 103px;    
+}
