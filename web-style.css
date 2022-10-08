@@ -1,40 +1,56 @@
 /*Importing Roboto font for project */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-* {
-	box-sizing: border-box;
+
+
+body * {
+    font-family: 'Roboto';
+    font-style: normal;
+    box-sizing: border-box;
 }
+
 
 .divisoria-vertical {
     width: 1px;
-    background-color: #DBDBDB; 
+    background-color: #DBDBDB;
     margin-left: 10px;
-    margin-right: 10px;  
+    margin-right: 10px;
+    height: 100%;
 }
+
 .divisoria-horizontal {
     width: 100%;
     height: 1px;
-    background-color: #DBDBDB;   
+    background-color: #DBDBDB;
 }
 
 .container {
-    
+
     width: 100%;
     height: 54px;
     display: flex;
     justify-content: center;
 }
+
 .conteudo-cabecalho * {
     margin-top: 15px;
     margin-bottom: 15px;
-    
-}
-.conteudo-cabecalho{
-    
-    width:935px;
-    display:flex;
+
 }
 
-.conteudo-cabecalho input{
+.cabecalho-esquerda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-cabecalho {
+    max-width: 935px;
+    width: 100%;
+    display: flex;
+}
+
+.conteudo-cabecalho input {
+
     width: 215px;
     height: 28px;
     text-align: center;
@@ -43,18 +59,32 @@
     line-height: 14px;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
-    margin:  13px 214px;
+    margin: 13px 214px;
+    background: #FAFAFA;
+
+
 }
-.conteudo-cabecalho .logo{
-        height: 29px;
-        width: 103px;    
+
+.cabecalho-esquerda .logo {
+    box-sizing: border-box;
+    height: 29px;
+    width: 103px;
 }
-.icones{
+
+.class-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+}
+
+.icones {
     height: 19px;
     width: 19px;
 }
-.icones-div{
-    
+
+.icones-div {
+
     width: 148px;
     margin-bottom: 15px;
     display: flex;
@@ -62,68 +92,63 @@
     align-items: center;
 
 }
+
 .container-main-body {
     background-color: green;
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.main-body{
-    background-color: grey;
-    width: 935px;
+
+.main-body {
+    background-color: #FAFAFA;
+
+    width: 100%;
     display: flex;
     justify-content: center;
 }
-.stories{
-    width: 614px;
+
+.main-esquerda {
+    max-width: 614px;
+    width: 65.67%;
+}
+
+.stories {
+
+    width: 100%;
     height: 118px;
     background: #FFFFFF;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
     margin-top: 34px;
-    margin-bottom: 24px; 
-}
-.post{
-
-    width: 614px;
-    height: 749px;
-    background: #FFFFFF;
-    border: 1px solid #DBDBDB;
-    border-radius: 3px;
-}
-.main-direita{
-    background: #FFFFFF;
-    width: 292px;
-    height:500px;
-    margin-left: 29px;
-}
-.stories{
+    margin-bottom: 24px;
     display: flex;
     padding-left: 11px;
     overflow: hidden;
 }
-.stories-box{
+
+
+.stories-box {
     margin-left: 7px;
     margin-right: 7px;
     display: column;
     background-image: url(./imagens/stories_background.jpg);
     background-repeat: no-repeat;
     width: 66px;
-    background-size: 66px; 
+    background-size: 66px;
     background-position: 0px 18px;
     padding-top: 23px;
-    padding-left:5px;
+    padding-left: 5px;
     align-items: center;
 }
 
 .imagem-stories {
-    
     width: 56px;
     height: 56px;
     border-radius: 50%;
     z-index: 1;
-    
 }
+
 .stories-box p {
     font-family: Roboto;
     font-style: normal;
@@ -131,6 +156,7 @@
     font-size: 12px;
     line-height: 14px;
 }
+
 .p-container {
     width: 66px;
     height: 19px;
@@ -139,6 +165,226 @@
     align-items: center;
     margin-top: 5px;
     padding-right: 7px;
+}
 
-    
+.post {
+    box-sizing: border-box;
+    width: 100%;
+    height: 749px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+}
+
+.cabecalho-post {
+    box-sizing: border-box;
+    width: 100%;
+    height: 8.04%;
+    background-color: #FFF;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo-esquerda-cabecalho-post {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 17px;
+}
+
+.conteudo-direita-cabecalho-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 18px;
+}
+
+.conteudo-esquerda-cabecalho-post p {
+
+    font-weight: 500;
+    font-style: normal;
+    line-height: 16px;
+    font-size: 14px;
+    color: #262626;
+    padding-left: 15px;
+}
+
+.icone-redondo-pequeno {
+    max-height: 32px;
+    max-width: 32px;
+    border-radius: 50%;
+}
+
+.imagem-post {
+    box-sizing: border-box;
+    max-width: 612px;
+    width: 100%;
+    height: 81.74%;
+    background-color: blue;
+    background-image: url(./imagens/gatotelefone.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+}
+
+.reacoes {
+    box-sizing: border-box;
+    height: 5.11%;
+    width: 100%;
+    background-color: #FFF;
+    ;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.quem-reagiu {
+    box-sizing: border-box;
+    width: 100%;
+    height: 5.11%;
+    background-color: #FFF;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 25px;
+}
+
+.quem-reagiu img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+
+.quem-reagiu p {
+    padding-left: 5px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+
+.reacoes-esquerda {
+    width: 14.17%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin-left: 18px;
+}
+
+.reacoes-direita {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-right: 20px;
+}
+
+.main-direita {
+    background: #FAFAFA;
+    max-width: 293px;
+    width: 34.33%;
+    height: 500px;
+    margin-left: 29px;
+    margin-top: 34px;
+
+}
+
+.superior-direita {
+    background-color: #FAFAFA;
+    height: 118px;
+}
+
+.catanacomics {
+    display: flex;
+}
+
+.catanacomics img {
+    display: flex;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    margin-top: 23px;
+}
+
+.texto-catanacomics {
+    margin-top: 36px;
+    margin-left: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.texto-catanacomics :nth-child(1) {
+    color: #262626;
+}
+
+.texto-catanacomics :nth-child(2) {
+    font-weight: 300;
+    color: #8E8E8E;
+}
+
+.sugestoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.sugestoes :nth-child(1) {
+    color: #8E8E8E;
+}
+
+.sugestoes :nth-child(2) {
+    color: #262626;
+}
+
+.perfis-para-seguir {
+    background-color: blue;
+    height: 224px;
+}
+
+.perfil {
+    height: 32px;
+    background-color: pink;
+    margin-bottom: 16px;
+}
+
+.perfil img {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+
+.sobre p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+    margin-top: 33px;
+    width: 300px;
+    background-color: #FAFAFA;
+}
+
+.copyright {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+    margin-top: 18px;
+    background-color: #FAFAFA;
 }
