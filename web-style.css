@@ -352,20 +352,57 @@ body * {
 }
 
 .perfis-para-seguir {
-    background-color: blue;
+    background-color: #FAFAFA;
     height: 224px;
+    padding-top: 17px;
+}
+
+.container-perfil-esquerda {
+    display: flex;
 }
 
 .perfil {
     height: 32px;
-    background-color: pink;
+    background-color: #FAFAFA;
     margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nome-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 11px;
+
+}
+
+.nome-status :nth-child(1) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+}
+
+.nome-status :nth-child(2) {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
 }
 
 .perfil img {
     border-radius: 50%;
     height: 32px;
     width: 32px;
+}
+
+.perfil p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #139EF2;
 }
 
 .sobre p {
