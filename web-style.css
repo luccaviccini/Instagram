@@ -349,6 +349,7 @@ body * {
 
 .sugestoes :nth-child(2) {
     color: #262626;
+    font-style: medium;
 }
 
 .perfis-para-seguir {
@@ -379,7 +380,8 @@ body * {
 }
 
 .nome-status :nth-child(1) {
-    font-weight: 500;
+    font-weight: 600;
+    font-style: medium;
     font-size: 14px;
     line-height: 16px;
     color: #262626;
@@ -390,6 +392,7 @@ body * {
     font-size: 12px;
     line-height: 14px;
     color: #8E8E8E;
+    margin-top: 5px;
 }
 
 .perfil img {
@@ -400,6 +403,7 @@ body * {
 
 .perfil p {
     font-weight: 500;
+    font-style: medium;
     font-size: 12px;
     line-height: 14px;
     color: #139EF2;
