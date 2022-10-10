@@ -228,7 +228,7 @@ body * {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 18px;
+    padding-right: 3%;
 }
 
 .conteudo-esquerda-cabecalho-post p {
@@ -275,7 +275,7 @@ body * {
     align-items: center;
     padding-top: 1%;
     padding-bottom: 2%;
-    padding-left: 25px;
+    padding-left: 4%;
 }
 
 .quem-reagiu img {
@@ -296,22 +296,22 @@ body * {
 
 
 .reacoes-esquerda {
-    width: 14.17%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
-    margin-left: 18px;
+    margin-left: 4%;
+}
+.reacoes-esquerda * {
+    margin-right: 18px;
 }
 
 .reacoes-direita {
-
-
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding-right: 20px;
+    padding-right: 3%;
 }
 
 .main-direita {
