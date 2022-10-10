@@ -451,10 +451,24 @@ body * {
     margin-top: 18px;
     background-color: #FAFAFA;
 }
-
+.container-rodape{
+    width: 100%;
+    height: 54px;
+    display: flex;
+    flex-direction: flex;
+    justify-content: space-around; 
+    align-items: center;
+    background-color: white;
+}
+.rodape-fixed {
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+    z-index: 1;
+}
 
 @media  (min-width: 614px) {
-    .container-mobile {
+    .container-mobile, .container-rodape {
         display:none;
     }
 }
