@@ -3,4 +3,8 @@
     .main-direita{
         display: none;
     }
+    .main-esquerda {
+        max-width: 614px;
+        width: 100%;
+    }
 }

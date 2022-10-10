@@ -24,4 +24,16 @@
         padding-right: 20px;
         background-color: #fff;
     }
+
+    .stories{
+        border: none;
+        background-color: #fafafa;
+        margin-bottom: 2px;
+    }
+    .container-main-body {
+        padding-top: 54px;
+    }
+    .setinha {
+        display: none;
+    }
 }

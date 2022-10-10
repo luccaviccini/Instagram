@@ -116,8 +116,6 @@ body * {
 }
 
 .main-body {
-    
-     
     width: 100%;
     display: flex;
     justify-content: center;
@@ -146,7 +144,7 @@ body * {
     margin-left: 7px;
     margin-right: 7px;
     display: column;
-    background-image: url(./imagens/stories_background.jpg);
+    background-image: url(./imagens/stories_background.png);
     background-repeat: no-repeat;
     width: 66px;
     background-size: 66px;
@@ -154,6 +152,9 @@ body * {
     padding-top: 23px;
     padding-left: 5px;
     align-items: center;
+    
+    
+    
 }
 
 .imagem-stories {
@@ -467,7 +468,7 @@ body * {
     z-index: 1;
 }
 
-@media  (min-width: 614px) {
+@media  (min-width: 615px) {
     .container-mobile, .container-rodape {
         display:none;
     }
