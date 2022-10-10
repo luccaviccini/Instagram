@@ -451,3 +451,10 @@ body * {
     margin-top: 18px;
     background-color: #FAFAFA;
 }
+
+
+@media  (min-width: 614px) {
+    .container-mobile {
+        display:none;
+    }
+}
