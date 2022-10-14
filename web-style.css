@@ -137,6 +137,7 @@ body * {
     display: flex;
     padding-left: 11px;
     overflow: hidden;
+    overflow-x: scroll;
 }
 
 
